@@ -1,0 +1,21 @@
+Package: wimaCareer
+Title: Demo a Data Science Use Case @ Ebner Stolz
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dag",
+           family = "Tanneberg",
+           role = c("aut", "cre"),
+           email = "Dag.Tanneberg@ebnerstolz.de",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes a definition of receivables and a simple
+  Shiny app prototype.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    plotly (>= 4.9.2.1),
+    shiny (>= 1.5.0),
+    stats,
+    boot
