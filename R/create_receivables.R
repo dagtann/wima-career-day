@@ -12,7 +12,7 @@ create_receivables <- function(seed = 80402) {
   population_max <- 10000
   lambda <- c("t1" = 14, "t2" = 20)
   n_periods <- 2
-  betas <- c("intercept" = .5, amount = 1, period = prod(lambda ^ c(1, -1)), -1)
+  betas <- c("intercept" = .5, amount = 1, period = prod(lambda ^ c(1, -1)), -2)
 
   amount <- population_max * stats::runif(n = population_size * n_periods)
   period <- rep(seq(n_periods) - 1, each = population_size)
